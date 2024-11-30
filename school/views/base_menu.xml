@@ -1,0 +1,14 @@
+<odoo>
+    <!-- Root menu for Egyptian Schools -->
+    <menuitem
+        id="egyptian_school_root_menu"
+        name="Egyptian Schools"
+    />
+
+    <!-- School menu under the root -->
+    <menuitem
+        id="school_menu"
+        name="Schools"
+        parent="egyptian_school_root_menu"
+    />
+</odoo>
